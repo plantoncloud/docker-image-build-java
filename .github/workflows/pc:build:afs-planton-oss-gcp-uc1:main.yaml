@@ -14,5 +14,5 @@ jobs:
     with:
       PLANTON_CLOUD_ARTIFACT_STORE_ID: afs-planton-oss-gcp-uc1
       DOCKER_REPO_HOSTNAME: us-central1-docker.pkg.dev
-      CONTAINER_IMAGE_NAME: us-central1-docker.pkg.dev/ca-planton-gcp-sh-zg/afs-planton-oss-gcp-uc1-docker/github.com/plantoncloud/docker-image-build-java
+      CONTAINER_IMAGE_REPO: us-central1-docker.pkg.dev/ca-planton-gcp-sh-zg/afs-planton-oss-gcp-uc1-docker/github.com/plantoncloud/docker-image-build-java
       CONTAINER_IMAGE_TAG: ${{ github.sha }}
