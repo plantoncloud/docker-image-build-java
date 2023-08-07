@@ -11,7 +11,6 @@ jobs:
       PLANTON_CLOUD_CLIENT_ID: ${{ secrets.PLANTON_CLOUD_CLIENT_ID }}
       PLANTON_CLOUD_CLIENT_SECRET: ${{ secrets.PLANTON_CLOUD_CLIENT_SECRET }}
     with:
-      PLANTON_CLOUD_CLI_ENVIRONMENT: live
       PLANTON_CLOUD_ARTIFACT_STORE_ID: afs-planton-oss-gcp-uc1
       DOCKER_REPO_HOSTNAME: us-central1-docker.pkg.dev
       CONTAINER_IMAGE_NAME: us-central1-docker.pkg.dev/ca-planton-gcp-sh-zg/afs-planton-oss-gcp-uc1-docker/github.com/plantoncloud/docker-image-build-java
